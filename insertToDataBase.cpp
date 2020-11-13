@@ -15,6 +15,10 @@ using namespace std;
 //) as tmp where not exists( select * from MessageAndCode where Message like 
 //	'm%p'
 //) limit 1;
+//
+//option:
+//	-I/usr/include/mariadb -L/usr/lib/x86_64-linux-gnu/ -lmariadbclient
+//	*read 
 void insertToDataBase( vector<vector<string>> dead )
 {
 	MYSQL *connection=NULL;
