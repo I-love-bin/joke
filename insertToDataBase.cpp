@@ -18,7 +18,6 @@ using namespace std;
 //
 //option:
 //	-I/usr/include/mariadb -L/usr/lib/x86_64-linux-gnu/ -lmariadbclient
-//	*read 
 void insertToDataBase( vector<vector<string>> dead )
 {
 	MYSQL *connection=NULL;
